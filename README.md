@@ -15,7 +15,7 @@ The **Date Picking and Backfilling System** is a scalable and flexible system de
 ## Database Schema
 
 Below is the structure of the database used for the system. The schema is designed to track the state and details of each pipeline run, manage backfill tasks, and monitor data quality and SLA compliance.
-
+![de-backfill-engine.png](img%2Fde-backfill-engine.png)![ Date Picking and Backfilling System Data Model](img/)
 ```dbml
 Table pipelines {
   pipeline_id            VARCHAR [pk, unique, not null]
